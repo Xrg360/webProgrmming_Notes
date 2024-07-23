@@ -1,0 +1,113 @@
+
+
+HTML tables allow you to organize data in rows and columns. Here’s a basic guide on how to create and style tables in HTML.
+
+## Basic Structure
+
+An HTML table is defined with the `<table>` tag. Each row is defined with the `<tr>` tag. A table header is created with the `<th>` tag, and table data/cells are created with the `<td>` tag.
+
+### Example
+```html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data 4</td>
+  </tr>
+</table>
+```
+
+## Attributes
+
+- `border`: Specifies the width of the table border.
+- `cellpadding`: Specifies the space between the cell content and its borders.
+- `cellspacing`: Specifies the space between cells.
+
+### Example
+```html
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+```
+
+## Spanning Rows and Columns
+
+- `colspan`: Merges multiple columns into a single cell.
+- `rowspan`: Merges multiple rows into a single cell.
+
+### Example
+```html
+<table border="1">
+  <tr>
+    <th>Header 1</th>
+    <th colspan="2">Header 2</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Data 1</td>
+    <td>Data 2</td>
+    <td>Data 3</td>
+  </tr>
+  <tr>
+    <td>Data 4</td>
+    <td>Data 5</td>
+  </tr>
+</table>
+```
+
+## Styling with CSS
+
+You can use CSS to style your tables for a more polished look.
+
+### Example
+```html
+<style>
+  table {
+    width: 100%;
+    border:1px solid black;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data 4</td>
+  </tr>
+</table>
+```
+
+## Summary
+
+- Use `<table>`, `<tr>`, `<th>`, and `<td>` to create tables.
+- Use attributes like `border`, `cellpadding`, and `cellspacing` for basic styling.
+- Use `colspan` and `rowspan` to merge cells.
+- Use CSS for advanced styling.
