@@ -1,4 +1,4 @@
-# Web Programming Notes
+ # Web Programming Notes
 
 This repository contains notes and examples for web programming. The notes are designed to be viewed in Obsidian, a powerful knowledge base tool.
 
@@ -30,7 +30,7 @@ This repository contains notes and examples for web programming. The notes are d
 
 1. Open Obsidian.
 2. Click on "Open folder as vault".
-3. Navigate to the location where you cloned the repository and select the `web_progrmming` folder.
+3. Navigate to the location where you cloned the repository and select the `webProgrmming_Notes` folder.
 
 ### Viewing Rendered Notes
 
