@@ -1,6 +1,3 @@
-Sure! Here is a `README.md` file for your repository that includes instructions for installing Obsidian, cloning your repository, and viewing the rendered notes with inline CSS and other styles.
-
-
 # Web Programming Notes
 
 This repository contains notes and examples for web programming. The notes are designed to be viewed in Obsidian, a powerful knowledge base tool.
